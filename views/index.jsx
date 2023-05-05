@@ -14,9 +14,9 @@ function Index ({ breads }) {
       <Default>
         <h2>Index Page</h2>
         <div className='newButton'>
-                <a href='/breads/new'>
-                    <button>add a new bread</button>
-                </a>
+            <a href='/breads/new'>
+                <button>add a new bread</button>
+            </a>
         </div>
         <ul>
             {display}
